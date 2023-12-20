@@ -1,4 +1,5 @@
 const capitalize = require('../code/capitalize');
+
 test('capitalize bird to Bird', () => {
     expect(capitalize('bird')).toBe('Bird');
 });
